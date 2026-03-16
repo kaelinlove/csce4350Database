@@ -92,7 +92,7 @@ def main():
             else:
                 val = index.get(parts[1])
                 if val is None:
-                    print("NULL")
+                    print("")
                 else:
                     print(val)
 
